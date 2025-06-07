@@ -4,7 +4,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!--<class>org.example.Department</class>-->
-        <class>org.example.Employee</class>
+        <!--<class>org.example.Employee</class>-->
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" />
@@ -13,7 +13,7 @@
             <property name="jakarta.persistence.jdbc.password" value="password" />
 
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
 
